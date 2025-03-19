@@ -37,9 +37,9 @@ const Home = () => {
       <div className="mt-8 bg-gray-900 p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-blue-300">Why This Dashboard?</h2>
         <p className="mt-2 text-gray-400">
-          Our system leverages AI and IoT to monitor **real-time sensor data** from machines like the **Conveyor System, Sealing Machine, Robot Arm, and Filling Machine**.
+          Our system leverages AI and IoT to monitor real-time sensor data from machines like the Conveyor System, Sealing Machine, Robot Arm, and Filling Machine.
           <br />
-          Get instant **alerts** on anomalies, track machine performance, and prevent failures before they happen.
+          Get instant alerts on anomalies, track machine performance, and prevent failures before they happen.
         </p>
       </div>
 
@@ -67,7 +67,7 @@ const Home = () => {
       <div className="mt-8 text-center">
         <p className="text-lg text-gray-400">Select a machine from the sidebar to view its real-time status.</p>
         <Link
-          to="/3D"
+          to="/3D-model"
           className="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
         >
           Go to 3D view 🚀
