@@ -29,7 +29,7 @@ const Sidebar = () => {
           to="/3d-model"
           className="px-4 py-2 mb-5 bg-blue-500 hover:bg-blue-600 rounded text-center w-full mt-auto"
         >
-          View 3D Model
+          View 3D-Model
         </Link>
       </div>
 
