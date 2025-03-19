@@ -67,8 +67,8 @@ const Conveyor = () => {
   const checkAlerts = (data) => {
     let newAlerts = [];
 
-    if (parseFloat(data.temperature) > 70)
-      newAlerts.push("🔥 High Temperature Alert: Over 70°C");
+    if (parseFloat(data.temperature) > 100)
+      newAlerts.push("🔥 High Temperature Alert: Over 100°C");
     if (parseFloat(data.vibration) > 5.0)
       newAlerts.push("⚠️ Critical Vibration Alert: Over 5.0");
     if (parseFloat(data.pressure) > 150)
@@ -117,7 +117,7 @@ const Conveyor = () => {
       <div className="grid grid-cols-3 gap-5 mt-5">
         <div
           className={`p-4 rounded-lg text-center ${
-            parseFloat(sensorData.temperature) > 70 ? "bg-red-500" : "bg-gray-800"
+            parseFloat(sensorData.temperature) > 100 ? "bg-red-500" : "bg-gray-800"
           }`}
         >
           <h3 className="text-lg font-semibold">Temperature</h3>

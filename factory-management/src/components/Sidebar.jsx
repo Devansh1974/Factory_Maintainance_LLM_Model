@@ -23,7 +23,6 @@ const Sidebar = () => {
         </Link>
       </nav>
       </div>
-  
         <Link
 
           to="/3d-model"
@@ -31,11 +30,7 @@ const Sidebar = () => {
         >
           View 3D-Model
         </Link>
-      </div>
-
-    
-    
-    
+      </div>    
   );
 };
 
