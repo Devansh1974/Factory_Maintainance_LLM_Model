@@ -77,7 +77,7 @@ function generateConveyorData() {
   return {
     temperature: (Math.random() * (80 - 30) + 30).toFixed(2), // 30°C - 80°C
     vibration: (Math.random() * (10 - 1) + 1).toFixed(2), // 1 - 10
-    pressure: (Math.random() * (200 - 50) + 50).toFixed(2), // 50 - 200
+    pressure: (Math.random() * (100 - 50) + 50).toFixed(2), // 100 - 300
     lastUpdated: new Date().toLocaleTimeString(),
   };
 }
