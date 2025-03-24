@@ -13,7 +13,22 @@ FacCheckAI is an AI-powered predictive maintenance system designed to monitor in
 - [Contact Me](#contact-me)
 
 ---
+## Images of Project
 
+Here are some images related to the project:
+
+### Home Page
+![Home Page](/factory-management/src/assets/Homepage.png)  
+
+
+### Conveyor Belt Machine
+![Conveyor Belt Machine](/factory-management/src/assets/conveyor.png) 
+
+
+### 3rd Robot Arm
+![Robot Arm](/factory-management/src/assets/robotARM.png) 
+
+---
 ## Features
 - Real-time monitoring of industrial equipment.
 - Anomaly detection and failure prediction using AI.
